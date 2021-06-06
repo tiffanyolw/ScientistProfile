@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #D7D9D7;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #522B47
+}
+
+a {
+    color: #522B47;
+}
+
+a:hover {
+    background-color: #BAACBD;
+    border-radius: 3px;
+}
+
+button {
+    color: #522B47;
+    background-color: #C9C5CB;
+}
+
+button:hover {
+    background-color: #BAACBD;
+}
+
+/* HEADER */
+#header {
+    background-color: #522B47;
+    color: #C9C5CB;
+    position: sticky;
+    position: -webkit-sticky-; /* for safari */
+    top: 0;
+}
+
+#header h1 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 40px;
+}
+
+/* CONTENT */
+/* SCIENTIST SECTION*/
+.scientist {
+    margin-top: 20px;
+}
+
+.scientist img {
+    float: left;
+    height: 300px;
+    border: 10px outset #BAACBD;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.scientist-info {
+    height: 300px;
+    border-left: 10px solid #BAACBD;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #C9C5CB; 
+    display: flex;
+}
+
+/* EVENTS */
+.events {
+    margin-top: 20px;
+}
+
+.events .row {
+    width: 100%;
+}
+
+.upcoming-event {
+    background-color: #C9C5CB; 
+    border-left: 10px solid #BAACBD;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.event-title {
+    color: #522B47
+}
+
+.upcoming-event p {
+    margin: 10px 0;
+}
+
+/* ARTICLES */
+.articles {
+    margin-top: 20px;
+}
+
+.article {
+    background-color: #C9C5CB; 
+    border-left: 10px solid #BAACBD;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.article-title {
+    color: #522B47;
+}
+
+.article p {
+    margin: 10px 0;
+}
+
+/* FORM */
+.form {
+ margin-top: 20px;
+}
+
+.form-content {
+    background-color: #C9C5CB; 
+    border-left: 10px solid #BAACBD;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.question p {
+    margin: 10px 0;
+}
+
+.question input {
+    background-color: #D7D9D7;
+}
+
+/* FOOTER */
+#footer {
+    margin-top: 20px;
+    background-color: #522B47;
+    color: #C9C5CB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
